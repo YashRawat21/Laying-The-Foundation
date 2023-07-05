@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+}
+.left{
+    flex: 4;
+}
+.logoImg{
+    width: 30%;
+    height: 150px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.middle{
+    flex: 5;
+}
+.right{
+ flex: 3;
+}
+.searchInput{
+    width: 300px;
+    margin-top: 20px;
+    outline: none;
+    margin-right: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+.submitBtn{
+     height: 30px;
+    background-color: #011631;
+    color: white;
+    
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.userImg{
+    width: 30%;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 270px;
+    margin-top: -10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
